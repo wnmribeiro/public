@@ -1,0 +1,143 @@
+# 📝 Página de Posts
+
+Uma aplicação web moderna para visualização e gerenciamento de posts de blog/artigos com interface intuitiva e responsiva.
+
+## 🚀 Funcionalidades
+
+### Visualização de Posts
+- **Lista de Posts**: Exibição organizada de todos os posts publicados
+- **Busca e Filtros**: Sistema de busca por título, conteúdo ou tags
+- **Categorização**: Organização por categorias e tags
+- **Paginação**: Navegação eficiente entre páginas de posts
+
+### Detalhes do Post
+- **Visualização Completa**: Leitura integral do conteúdo
+- **Metadados**: Data de publicação, autor, categoria e tags
+- **Tempo de Leitura**: Estimativa automática baseada no conteúdo
+- **Compartilhamento**: Botões para redes sociais
+
+### Interface do Usuário
+- **Design Responsivo**: Otimizado para desktop, tablet e mobile
+- **Modo Escuro/Claro**: Alternância de temas
+- **Tipografia Otimizada**: Foco na legibilidade e experiência de leitura
+- **Navegação Intuitiva**: Menu e breadcrumbs para fácil navegação
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Framework**: React.js / Vue.js / Angular (especificar conforme o projeto)
+- **Estilização**: Tailwind CSS / Styled Components / SCSS
+- **Icons**: Lucide React / Font Awesome
+- **Responsividade**: CSS Grid e Flexbox
+
+## 📋 Estrutura do Projeto
+
+```
+src/
+├── components/
+│   ├── PostCard/          # Componente do card de post
+│   ├── PostList/          # Lista de posts
+│   ├── PostDetail/        # Visualização detalhada
+│   ├── SearchBar/         # Barra de busca
+│   ├── FilterSidebar/     # Filtros laterais
+│   └── Pagination/        # Componente de paginação
+├── pages/
+│   ├── Home/              # Página inicial
+│   ├── PostView/          # Página do post individual
+│   └── Category/          # Página de categoria
+├── hooks/
+│   ├── usePosts.js        # Hook para gerenciar posts
+│   └── useSearch.js       # Hook para busca
+├── utils/
+│   ├── formatDate.js      # Formatação de datas
+│   └── readingTime.js     # Cálculo do tempo de leitura
+└── styles/
+    ├── globals.css        # Estilos globais
+    └── components/        # Estilos dos componentes
+```
+
+## 🎨 Design System
+
+### Cores
+- **Primária**: #2563eb (Azul)
+- **Secundária**: #64748b (Cinza)
+- **Sucesso**: #10b981 (Verde)
+- **Fundo**: #ffffff / #1f2937 (Claro/Escuro)
+
+### Tipografia
+- **Títulos**: Inter, sans-serif (700)
+- **Corpo**: Inter, sans-serif (400)
+- **Código**: Fira Code, monospace
+
+## 🔧 Instalação e Uso
+
+### Pré-requisitos
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+
+### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/pagina-posts.git
+
+# Entre no diretório
+cd pagina-posts
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm start
+```
+
+### Comandos Disponíveis
+```bash
+npm start          # Inicia o servidor de desenvolvimento
+npm run build      # Gera build de produção
+npm test           # Executa os testes
+npm run lint       # Verifica código com ESLint
+```
+
+## 📱 Responsividade
+
+A aplicação é totalmente responsiva e otimizada para:
+- **Desktop**: 1200px+
+- **Tablet**: 768px - 1199px
+- **Mobile**: até 767px
+
+## 🎯 Funcionalidades Planejadas
+
+- [ ] Sistema de comentários
+- [ ] Avaliação de posts (likes/dislikes)
+- [ ] Newsletter subscription
+- [ ] Modo de leitura offline
+- [ ] Integração com CMS
+- [ ] Sistema de usuários e autenticação
+
+## 🤝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👥 Equipe
+
+- **Desenvolvedor Frontend**: [Seu Nome]
+- **UI/UX Designer**: [Nome do Designer]
+- **Product Owner**: [Nome do PO]
+
+## 📞 Contato
+
+- **Email**: contato@exemplo.com
+- **LinkedIn**: [Seu LinkedIn]
+- **Portfolio**: [Seu Portfolio]
+
+---
+
+⭐ Se este projeto foi útil para você, considere dar uma estrela no repositór
